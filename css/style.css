@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  background-color: #dfdada !important;
+}
+#signin {
+  background-color: white;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  margin: 30px auto;
+  border-radius: 15px;
+  padding-top: 30px;
+}
+.icons a img {
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 75px;
+}
+.facebook-icone {
+  margin-right: 150px;
+}
+.form-control {
+  width: 450px !important;
+  margin-left: 30px;
+}
+/* dashboard */
+.sidebar {
+  height: 100vh;
+  background-color: #ffafcc;
+  padding-top: 20px;
+}
+.sidebar .nav-link {
+  color: #fff;
+  padding: 10px 20px;
+}
+.sidebar .nav-link:hover,
+.btn1:hover {
+  background-color: #ffc8dd;
+  color: #ff99c8;
+}
+.sidebar .nav-link.active {
+  background-color: #ffc8dd;
+}
+.count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.one {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  padding-left: 15px;
+  padding-top: 30px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.one button a {
+  text-decoration: none;
+  color: white;
+}
+.one button {
+  background-color: #ff99c8;
+  border: 0;
+  border-radius: 5px;
+  width: 130px;
+}
+@media (max-width: 766px) {
+  .count {
+    display: block;
+    margin: 0 auto;
+  }
+  .one {
+    margin-bottom: 15px;
+  }
+}
+/* categories */
+.btn2 {
+  width: 150px;
+  height: 35px;
+  background-color: green;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-top: 15px;
+}
